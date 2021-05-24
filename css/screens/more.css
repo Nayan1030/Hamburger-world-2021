@@ -23,10 +23,15 @@
     align-items: center;
 }
 
+.icon-row__2 {
+    margin-left: 20px;
+    width: 40%;
+}
+
 .more-suggestions__icon-image {
     width: 60px;
     height: 60px;
-    background-color: var(--yellow);
+    background-color: var(--red);
     border-radius: 10px;
     display:flex;
     justify-content: center;
@@ -36,5 +41,9 @@
 
 .more-suggestions__icon-image i {
     font-size: 32px;
+    color:var(--yellow);
+}
+
+.more-suggestions__icon-image .fa-hamburger {
     color: white;
 }
